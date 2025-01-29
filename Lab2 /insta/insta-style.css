@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color:white;
+    font-family: 'Arial', sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    min-height: 100vh;
+    margin: auto;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+}
+
+.all form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 3vh 2vw;
+    border: 1px solid rgb(128, 128, 128);
+}
+
+.all form .instaLogo {
+    width: 200px;
+    margin: 20px 0;
+}
+
+.all form .input {
+    width: 90%;
+    padding: .6rem;
+    border-radius: 8px;
+    border: 1px solid rgb(128, 128, 128);
+    margin: 3px;
+}
+
+.button {
+    width: 97%;
+    padding: .4rem;
+    font-weight: 700;
+    background-color: rgb(1, 183, 255);
+    border: none;
+    border-radius: 8px;
+    margin: 8px 0px;
+    color: white;
+}
+
+#ili {
+    margin: 20px 0;
+}
+
+#ili:before,
+#ili:after {
+    content: '──────────';
+    color: rgb(128, 128, 128);
+    margin: 0 10px;
+}
+
+.facebook {
+    font-weight: 700;
+    font-size: 95%;
+    color: rgb(85, 0, 255);
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.sign-up {
+    text-align: center;
+    border: 1px solid rgba(134, 132, 132,);
+    padding: 20px;
+    margin: 10px;
+}
+
